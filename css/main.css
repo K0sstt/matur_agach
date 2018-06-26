@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,cyrillic);
+
+body{    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.3em;
+}
+.space{
+    background: url("../images/space_fone.png");
+    width: 100%;
+    height: 50px;
+}
+.main{
+    flex: 1 0 auto;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+header{
+    background: url(../images/fone.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: aliceblue;
+}
+.navbar-nav {
+ margin-right: 10px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.logo{
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 150px;
+}
+.we{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.why{
+    font-size: 20px;
+    line-height: normal;
+}
+.product{
+    background-image: url(../images/bg-products.png);
+    text-align: center;
+    padding-bottom: 50px;
+}
+figure{
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 10px;
+}
+.price{
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+.btn{
+    width: 60%;
+}
+.comment{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+/* карусель отзывов bootstrap */
+/* carousel */
+.carousel{
+    background: url("../images/bg-products.png");
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px #000;
+    height: 280px;
+}
+#quote-carousel
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px 0px 0px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 100px;
+  height: 100px;
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #quote-carousel
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+      margin-top: 30px;
+    }
+
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+input[type=file]{
+    border-radius: 5px;
+    box-shadow: inset 0 0 1px #000;
+    font-size: 16px;
+    padding: 3px;
+    width: 100%;
+}
+.comment button{
+    width: 100%;
+}
+.contacts{
+    background: url("../images/foot_fone.png");
+    text-align: center; 
+    padding-bottom: 30px;
+}
+.contacts img{
+    cursor: pointer;
+}
+.contacts_footer{
+    text-align: center;
+}
+.contacts form button{
+    width: 100%;    
+}
+#or{
+    font-size: 60px;
+    padding-top: 20px;
+}
+footer{
+    background-color: #34495e;
+    color: #bdc3c7;
+}
+footer a{
+    display: block;
+    color: #7f8c8d;
+}
+footer a:hover{
+    color: #95a5a6;
+}
+.copyr{
+    color: #bdc3c7;
+    font-size: 18px;
+    text-align: center;
+    background-color: #000;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
